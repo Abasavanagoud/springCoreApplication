@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="radio" class="com.ba.beans.Radio" autowire="byName"/>
+	<bean id="reciever1" class="com.ba.beans.Reciever" p:frequencyLevel="252" p:frequencyType="auto"/>
+	<bean id="tunner" class="com.ba.beans.Tunner" p:tuneType="altrahedge" p:tunnerNo="128"/>
+</beans>
