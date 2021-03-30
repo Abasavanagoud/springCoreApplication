@@ -1,1 +1,1 @@
-# springCoreApplication
+# springCoreApplications
