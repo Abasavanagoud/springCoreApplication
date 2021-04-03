@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	<bean id="sensor1" class="com.qualifier.annotaion.Sensor" p:sensorType="infraSensor"/>
+	<bean id="sensor2" class="com.qualifier.annotaion.Sensor" p:sensorType="fingerSensor"/>
+	<bean  class="com.qualifier.annotaion.Motor">
+		<!-- <constructor-arg name="microServices" ref="microService"></constructor-arg> -->
+	</bean>
+	<bean id="microService" class="com.qualifier.annotaion.MicroServices">
+		
+	</bean>
+	
+	<context:annotation-config/>
+</beans>
