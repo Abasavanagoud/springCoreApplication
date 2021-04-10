@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/main/java/com/autowired/annotation/autowired-beans.xml</config>
 		<config>src/main/java/com/qualifier/annotaion/Qualifier-bean.xml</config>
+		<config>src/main/java/com/stereotype/annotations/stereoAnnotations-beans.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
