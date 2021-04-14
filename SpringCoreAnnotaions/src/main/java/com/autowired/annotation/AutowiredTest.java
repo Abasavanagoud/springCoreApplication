@@ -8,6 +8,11 @@ public class AutowiredTest {
 		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("com\\autowired\\annotation\\autowired-beans.xml");
 		Robort robort=applicationContext.getBean(Robort.class);
 		robort.boot();
+		/*
+		 * sensor object is created sensor is initilizationfinggerprintSenseron Robort
+		 * is booting
+		 */
 		
 	}
 }
+

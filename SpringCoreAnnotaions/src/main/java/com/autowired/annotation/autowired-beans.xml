@@ -7,6 +7,6 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 	<bean class="com.autowired.annotation.Robort"/>	
 		<bean id="infraSensor" class="com.autowired.annotation.Sensor" p:sensorType="finggerprintSenser"/>
-	
+		<bean id="typeSenser" class="com.autowired.annotation.TypeSensers"></bean>
 	<context:annotation-config/>
 </beans>
